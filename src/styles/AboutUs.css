@@ -1,0 +1,52 @@
+.about-us-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .content-container {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  h1, h2, h3, h4 {
+    color: #333;
+  }
+  
+  p {
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  .team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .team-member-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .testimonials-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  /* Add additional styling as per your design preferences */
+  
