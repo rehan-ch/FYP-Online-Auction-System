@@ -152,3 +152,17 @@ img {
   border-radius: 50%;
   margin: 2px 5px;
 }
+
+.chat-container{
+  border: 1px solid black;
+  width: 100%;
+  
+  padding: 50px;
+}
+.messagesWrapper{
+  overflow: auto;
+  height: 80vh;
+}
+.newMessage{
+  margin: 0 auto;
+}

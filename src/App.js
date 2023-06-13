@@ -16,7 +16,7 @@ import ReviewItem from './pages/ReviewItem';
 import EditItem from './pages/EditItem';
 import ContactUs from './pages/ContactUs';
 import Featured from './pages/Featured';
-import chat from './pages/chat';
+import Chat from './pages/Chat';
 import SendMailToWinner from './pages/SendMailToWinner';
 import { getAuth } from "firebase/auth";
 import React, { useState, useEffect } from "react";
@@ -61,7 +61,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contactUs" element={<ContactUs />} />
         <Route path="/Featured" element={<Featured />} />
-        <Route path="/chat" element={<chat />} />
+        <Route path="/chat" element={<Chat />} />
         <Route path="/profile" element={<PrivateRoute />} >
           <Route path="/profile" element={<Profile />} />
         </Route>

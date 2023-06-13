@@ -55,7 +55,7 @@ const HomeHeader = () => {
               <Link className="nav-item nav-link active text-dark" to={"/"}>Home</Link>
               <Link className="nav-item nav-link active text-dark" to={"/Featured"}>Featured</Link>
               <Link className="nav-item nav-link active text-dark" to={"/contactUs"}>Contact Us</Link>
-              <Link className="nav-item nav-link active text-dark" to={"/about"}>Chat with Admin</Link>
+              <Link className="nav-item nav-link active text-dark" to={"/chat"}>Chat with Admin</Link>
               <Link className="nav-item nav-link active text-dark" to={"/about"}>About Us</Link>
 
 

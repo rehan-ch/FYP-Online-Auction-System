@@ -1,0 +1,20 @@
+.messageWrapper{
+    width: 100%;
+}
+.messageContainer{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    width: 40%;
+}
+.adminMessage{
+    flex-direction: row-reverse;
+    margin-left: 60%;
+
+}
+.messageText{
+    padding: 10px;
+}
